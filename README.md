@@ -3,12 +3,15 @@
 - 📖 [Remix docs](https://remix.run/docs)
 - 📖 [Remix Cloudflare docs](https://remix.run/guides/vite#cloudflare)
 
+## Live Demo
+
+[https://remix-sass-template-with-cloudflare.pages.dev/](https://remix-sass-template-with-cloudflare.pages.dev/)
+
 ## Create
 
 ```sh
 npm create cloudflare@latest
 ```
-
 
 ## Development
 
