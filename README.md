@@ -1,3 +1,58 @@
+# Welcome to Remix + Cloudflare!
+
+- 📖 [Remix docs](https://remix.run/docs)
+- 📖 [Remix Cloudflare docs](https://remix.run/guides/vite#cloudflare)
+
+## Create
+
+```sh
+npm create cloudflare@latest
+```
+
+
+## Development
+
+Run the dev server:
+
+```sh
+npm run dev
+```
+
+To run Wrangler:
+
+```sh
+npm run build
+npm run start
+```
+
+## Typegen
+
+Generate types for your Cloudflare bindings in `wrangler.toml`:
+
+```sh
+npm run typegen
+```
+
+You will need to rerun typegen whenever you make changes to `wrangler.toml`.
+
+## Deployment
+
+First, build your app for production:
+
+```sh
+npm run build
+```
+
+Then, deploy your app to Cloudflare Pages:
+
+```sh
+npm run deploy
+```
+
+## inspired by
+
+[https://github.com/dev-xo/remix-saas](https://github.com/dev-xo/remix-saas)
+
 ## remix-flat-routes 설명
 
 `_home+` 폴더 이름에 있는 `_`(언더스코어)가 중요한 역할을 하고 있어.
@@ -40,52 +95,4 @@ Remix에서 언더스코어(`_`)로 시작하는 폴더나 파일은 라우트 �
 
 
 
-https://github.com/dev-xo/remix-saas
 
-# Welcome to Remix + Cloudflare!
-
-- 📖 [Remix docs](https://remix.run/docs)
-- 📖 [Remix Cloudflare docs](https://remix.run/guides/vite#cloudflare)
-
-## Development
-
-Run the dev server:
-
-```sh
-npm run dev
-```
-
-To run Wrangler:
-
-```sh
-npm run build
-npm run start
-```
-
-## Typegen
-
-Generate types for your Cloudflare bindings in `wrangler.toml`:
-
-```sh
-npm run typegen
-```
-
-You will need to rerun typegen whenever you make changes to `wrangler.toml`.
-
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then, deploy your app to Cloudflare Pages:
-
-```sh
-npm run deploy
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
