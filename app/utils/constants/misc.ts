@@ -1,0 +1,9 @@
+/**
+ * Action Intents.
+ */
+export const INTENTS = {
+  INTENT: "INTENT",
+  USER_UPDATE_USERNAME: "USER_UPDATE_USERNAME",
+  USER_DELETE_ACCOUNT: "USER_DELETE_ACCOUNT",
+  USER_DELETE: "USER_DELETE",
+} as const;
